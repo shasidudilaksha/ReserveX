@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Modern Vibrant Theme Colors -->
+    <color name="colorPrimary">#6200EA</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorPrimaryLight">#B388FF</color>
+    <color name="colorPrimaryContainer">#EADDFF</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnPrimaryContainer">#21005D</color>
+    
+    <color name="colorSecondary">#FF4081</color>
+    <color name="colorSecondaryContainer">#FFD9E2</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="colorOnSecondaryContainer">#31111D</color>
+    
+    <color name="colorAccent">#00E5FF</color>
+    <color name="colorAccentLight">#84FFFF</color>
+    
+    <color name="colorBackground">#F4F5FB</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorSurfaceVariant">#E7E0EC</color>
+
+    <!-- Specific Feature Colors -->
+    <color name="colorBooksFeature">#6200EA</color>
+    <color name="colorSeatsFeature">#FF4081</color>
+    <color name="colorRoomsFeature">#00BCD4</color>
+
+    <color name="colorLightBlue">#E3F2FD</color>
+    <color name="colorLightIndigo">#E8EAF6</color>
+    <color name="colorLightGreen">#E8F5E9</color>
+    <color name="colorLightOrange">#FFF3E0</color>
+    <color name="colorLightPink">#FCE4EC</color>
+    
+    <color name="colorOnBackground">#1A1C1E</color>
+    <color name="colorOnSurface">#1A1C1E</color>
+    <color name="colorOnSurfaceVariant">#49454F</color>
+    
+    <color name="colorAvailable">#4CAF50</color>
+    <color name="colorAvailableLight">#E8F5E9</color>
+    
+    <color name="colorReserved">#F44336</color>
+    <color name="colorReservedLight">#FFEBEE</color>
+    
+    <color name="colorSelected">#FF8F00</color>
+    <color name="colorSelectedLight">#FFF8E1</color>
+    
+    <color name="colorUnavailable">#BDBDBD</color>
+    <color name="colorUnavailableLight">#F5F5F5</color>
+    
+    <color name="colorTextPrimary">#1A1C1E</color>
+    <color name="colorTextSecondary">#6B7280</color>
+    <color name="colorTextHint">#9CA3AF</color>
+    
+    <color name="colorCardBorder">#E8EAF6</color>
+    <color name="colorDivider">#E5E7EB</color>
+    <color name="colorInputBackground">#F4F5FB</color>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    
+    <color name="colorError">#B3261E</color>
+    <color name="colorSuccess">#388E3C</color>
+    <color name="colorWarning">#F57C00</color>
+    
+    <color name="colorBottomNavBackground">#FFFFFF</color>
+    <color name="colorOverlay">#80000000</color>
+</resources>

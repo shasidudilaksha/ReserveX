@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:background="@color/colorBackground">
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp" android:background="@drawable/bg_home_header">
+      <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="RESERVEX / LIBRARY" android:textSize="11sp" android:textColor="@color/white" android:layout_marginTop="12dp" />
+      <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Reserve your book" android:textSize="30sp" android:textColor="@color/white" android:layout_marginTop="12dp" android:textStyle="bold" />
+      <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="02 / Plan your pick-up" android:textSize="14sp" android:textColor="@color/white" android:layout_marginTop="12dp" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:paddingHorizontal="24dp" android:paddingBottom="32dp">
+      <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" app:cardCornerRadius="24dp" app:cardBackgroundColor="@color/white" app:strokeColor="@color/colorCardBorder" app:strokeWidth="1dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+          <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="YOUR BOOK" android:textSize="11sp" android:textColor="@color/colorTextPrimary" android:layout_marginTop="12dp" />
+          <TextView android:id="@+id/textViewConfirmMessage" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:textSize="22sp" android:textColor="@color/colorTextPrimary" android:layout_marginTop="12dp" android:textStyle="bold" />
+          <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="SLIIT Malabe Library" android:textSize="14sp" android:textColor="@color/colorTextPrimary" android:layout_marginTop="12dp" />
+          <TextView android:id="@+id/tvShelf" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:textSize="14sp" android:textColor="@color/colorTextPrimary" android:layout_marginTop="12dp" />
+        </LinearLayout>
+      </com.google.android.material.card.MaterialCardView>
+      <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" app:cardCornerRadius="24dp" app:cardBackgroundColor="@color/white" app:strokeColor="@color/colorCardBorder" app:strokeWidth="1dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+          <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="When will you visit?" android:textSize="20sp" android:textColor="@color/colorTextPrimary" android:layout_marginTop="12dp" />
+          <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Choose a date and time to collect your book." android:textSize="14sp" android:textColor="@color/colorTextPrimary" android:layout_marginTop="12dp" />
+          <com.google.android.material.button.MaterialButton android:id="@+id/btnSelectDate" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp" android:layout_marginTop="16dp" android:text="Select pick-up date" app:cornerRadius="18dp" app:icon="@drawable/ic_calendar" style="@style/Widget.Material3.Button.OutlinedButton" />
+          <com.google.android.material.button.MaterialButton android:id="@+id/btnSelectTime" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp" android:layout_marginTop="16dp" android:text="Select pick-up time" app:cornerRadius="18dp" app:icon="@drawable/ic_clock" style="@style/Widget.Material3.Button.OutlinedButton" />
+          <TextView android:id="@+id/tvSelectedDateTime" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Select a date and time to continue." android:textSize="14sp" android:textColor="@color/colorTextPrimary" android:layout_marginTop="12dp" />
+        </LinearLayout>
+      </com.google.android.material.card.MaterialCardView>
+      <com.google.android.material.button.MaterialButton android:id="@+id/buttonConfirm" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp" android:layout_marginTop="16dp" android:text="Confirm reservation" app:cornerRadius="18dp" app:icon="@drawable/ic_check_circle" />
+      <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Your booking will appear in My Reservations." android:textSize="12sp" android:textColor="@color/colorTextPrimary" android:layout_marginTop="12dp" />
+    </LinearLayout>
+  </LinearLayout>
+</androidx.core.widget.NestedScrollView>

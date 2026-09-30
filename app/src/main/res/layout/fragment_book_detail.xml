@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:background="@color/colorBackground">
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp" android:background="@drawable/bg_home_header">
+      <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="RESERVEX / LIBRARY" android:textSize="11sp" android:textColor="@color/white" android:layout_marginTop="12dp" />
+      <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Book details" android:textSize="30sp" android:textColor="@color/white" android:layout_marginTop="12dp" android:textStyle="bold" />
+      <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="01 / Choose your book" android:textSize="14sp" android:textColor="@color/white" android:layout_marginTop="12dp" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:paddingHorizontal="24dp" android:paddingBottom="32dp">
+      <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" app:cardCornerRadius="24dp" app:cardBackgroundColor="@color/white" app:strokeColor="@color/colorCardBorder" app:strokeWidth="1dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+          <ImageView android:id="@+id/imageViewCover" android:layout_width="120dp" android:layout_height="160dp" android:layout_gravity="center_horizontal" android:background="@drawable/bg_feature_card_books" android:padding="32dp" android:src="@drawable/ic_book" app:tint="@color/colorPrimary" android:importantForAccessibility="no" />
+          <TextView android:id="@+id/textViewTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:textSize="24sp" android:textColor="@color/colorTextPrimary" android:layout_marginTop="12dp" android:textStyle="bold" />
+          <TextView android:id="@+id/textViewAuthor" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:textSize="16sp" android:textColor="@color/colorTextPrimary" android:layout_marginTop="12dp" />
+          <TextView android:id="@+id/tvAvailability" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:textSize="14sp" android:textColor="@color/colorTextPrimary" android:layout_marginTop="12dp" />
+        </LinearLayout>
+      </com.google.android.material.card.MaterialCardView>
+      <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" app:cardCornerRadius="24dp" app:cardBackgroundColor="@color/white" app:strokeColor="@color/colorCardBorder" app:strokeWidth="1dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+          <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="About this book" android:textSize="18sp" android:textColor="@color/colorTextPrimary" android:layout_marginTop="12dp" />
+          <TextView android:id="@+id/textViewDescription" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:textSize="14sp" android:textColor="@color/colorTextPrimary" android:layout_marginTop="12dp" />
+          <TextView android:id="@+id/tvShelf" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:textSize="14sp" android:textColor="@color/colorTextPrimary" android:layout_marginTop="12dp" />
+        </LinearLayout>
+      </com.google.android.material.card.MaterialCardView>
+      <com.google.android.material.button.MaterialButton android:id="@+id/buttonReserve" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp" android:layout_marginTop="16dp" android:text="Choose pick-up time" app:cornerRadius="18dp" app:icon="@drawable/ic_arrow_forward" />
+    </LinearLayout>
+  </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ReserveX</string>
+    <string name="app_tagline">Find. Reserve. Study.</string>
+    
+    <string name="onboarding_title_1">Discover Resources</string>
+    <string name="onboarding_desc_1">Find the books and materials you need easily.</string>
+    <string name="onboarding_title_2">Reserve Your Space</string>
+    <string name="onboarding_desc_2">Book study seats and meeting rooms in advance.</string>
+    <string name="onboarding_title_3">Stay Organized</string>
+    <string name="onboarding_desc_3">Keep track of your reservations and borrowed items.</string>
+    <string name="btn_skip">Skip</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_get_started">Get Started</string>
+    
+    <string name="title_login">Login</string>
+    <string name="title_signup">Sign Up</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Full Name</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="msg_invalid_email">Invalid email format.</string>
+    <string name="msg_short_password">Password must be at least 6 characters.</string>
+    <string name="msg_passwords_mismatch">Passwords do not match.</string>
+    <string name="msg_login_failed">Login failed. Please check credentials.</string>
+    <string name="msg_signup_success">Account created successfully!</string>
+    
+    <string name="nav_home">Home</string>
+    <string name="nav_explore">Explore</string>
+    <string name="nav_reservations">Reservations</string>
+    <string name="nav_profile">Profile</string>
+    
+    <string name="home_greeting">Hello, User!</string>
+    <string name="home_subtitle">What would you like to do today?</string>
+    <string name="section_recent">Recent Activity</string>
+    <string name="section_upcoming">Upcoming Reservations</string>
+    <string name="feature_books">Books</string>
+    <string name="feature_seats">Seats</string>
+    <string name="feature_rooms">Rooms</string>
+    
+    <string name="book_search_hint">Search books...</string>
+    <string name="book_reserve">Reserve Book</string>
+    <string name="book_available">Available</string>
+    <string name="book_borrowed">Borrowed</string>
+    <string name="book_author_label">Author:</string>
+    <string name="book_isbn_label">ISBN:</string>
+    <string name="book_desc_label">Description:</string>
+    <string name="book_publisher_label">Publisher:</string>
+    
+    <string name="seat_choose_library">Choose Library</string>
+    <string name="seat_map">Seat Map</string>
+    <string name="seat_legend_available">Available</string>
+    <string name="seat_legend_selected">Selected</string>
+    <string name="seat_legend_reserved">Reserved</string>
+    <string name="seat_reserve">Reserve Seat</string>
+    <string name="seat_select_time">Select Time</string>
+    
+    <string name="room_capacity">Capacity:</string>
+    <string name="room_equipment">Equipment:</string>
+    <string name="room_view_slots">View Time Slots</string>
+    <string name="room_time_slots">Time Slots</string>
+    <string name="room_reserve">Reserve Room</string>
+    
+    <string name="res_tab_upcoming">Upcoming</string>
+    <string name="res_tab_past">Past</string>
+    <string name="res_status_confirmed">Confirmed</string>
+    <string name="res_status_completed">Completed</string>
+    <string name="res_status_cancelled">Cancelled</string>
+    <string name="res_cancel_dialog">Cancel Reservation?</string>
+    <string name="res_modify">Modify</string>
+    
+    <string name="msg_success">Success!</string>
+    <string name="msg_error">An error occurred.</string>
+    <string name="msg_reserved_success">Successfully reserved.</string>
+    
+    <string name="profile_menu_settings">Settings</string>
+    <string name="profile_menu_help">Help &amp; Support</string>
+    <string name="profile_logout">Logout</string>
+    
+    <string name="empty_reservations">No reservations yet.</string>
+    <string name="empty_books">No books found.</string>
+
+    <string name="str_placeholder_1">Placeholder 1</string>
+    <string name="str_placeholder_2">Placeholder 2</string>
+    <string name="str_placeholder_3">Placeholder 3</string>
+    <string name="str_placeholder_4">Placeholder 4</string>
+    <string name="str_placeholder_5">Placeholder 5</string>
+    <string name="str_placeholder_6">Placeholder 6</string>
+    <string name="str_placeholder_7">Placeholder 7</string>
+    <string name="str_placeholder_8">Placeholder 8</string>
+    <string name="str_placeholder_9">Placeholder 9</string>
+    <string name="str_placeholder_10">Placeholder 10</string>
+    <string name="str_placeholder_11">Placeholder 11</string>
+    <string name="str_placeholder_12">Placeholder 12</string>
+    <string name="str_placeholder_13">Placeholder 13</string>
+    <string name="str_placeholder_14">Placeholder 14</string>
+    <string name="str_placeholder_15">Placeholder 15</string>
+    <string name="str_placeholder_16">Placeholder 16</string>
+    <string name="str_placeholder_17">Placeholder 17</string>
+    <string name="str_placeholder_18">Placeholder 18</string>
+    <string name="str_placeholder_19">Placeholder 19</string>
+    <string name="str_placeholder_20">Placeholder 20</string>
+    <string name="str_placeholder_21">Placeholder 21</string>
+    <string name="str_placeholder_22">Placeholder 22</string>
+    <string name="str_placeholder_23">Placeholder 23</string>
+    <string name="str_placeholder_24">Placeholder 24</string>
+    <string name="str_placeholder_25">Placeholder 25</string>
+    <string name="str_placeholder_26">Placeholder 26</string>
+    <string name="str_placeholder_27">Placeholder 27</string>
+    <string name="str_placeholder_28">Placeholder 28</string>
+    <string name="str_placeholder_29">Placeholder 29</string>
+    <string name="str_placeholder_30">Placeholder 30</string>
+    <string name="str_placeholder_31">Placeholder 31</string>
+    <string name="str_placeholder_32">Placeholder 32</string>
+    <string name="str_placeholder_33">Placeholder 33</string>
+    <string name="str_placeholder_34">Placeholder 34</string>
+    <string name="str_placeholder_35">Placeholder 35</string>
+    <string name="str_placeholder_36">Placeholder 36</string>
+</resources>

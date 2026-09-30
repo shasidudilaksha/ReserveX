@@ -1,0 +1,2 @@
+package com.example.libreserve.model
+data class Reservation(val reservationId: String, val userId: String, val type: ReservationType, val resourceId: String, val resourceName: String, val libraryId: String, val libraryName: String, val date: String, val startTime: String, val endTime: String, var status: ReservationStatus = ReservationStatus.UPCOMING, val location: String = "", val createdAt: String = "")
