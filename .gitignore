@@ -1,0 +1,10 @@
+.gradle/
+**/build/
+.idea/
+*.iml
+local.properties
+supabase.properties
+.env
+.env.*
+!.env.example
+

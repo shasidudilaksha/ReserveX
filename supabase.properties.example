@@ -1,0 +1,4 @@
+# Copy to supabase.properties in the project root. Do not add quotes.
+SUPABASE_URL=https://ticaipsbfpvbmclhlpap.supabase.co
+SUPABASE_PUBLISHABLE_KEY=sb_publishable_Op2lF1qTWdrVm_ASw1MVCw_m6BioNhQ
+

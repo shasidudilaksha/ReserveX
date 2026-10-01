@@ -43,10 +43,10 @@ com.example.libreserve.app-jetified-lifecycle-viewmodel-savedstate-2.7.0-41 C:\U
 com.example.libreserve.app-jetified-core-ktx-1.12.0-42 C:\Users\Amazoft Intern\.gradle\caches\transforms-3\fb4ffdeaf9a661db1e8e38dc61ac4145\transformed\jetified-core-ktx-1.12.0\res
 com.example.libreserve.app-jetified-lifecycle-process-2.7.0-43 C:\Users\Amazoft Intern\.gradle\caches\transforms-3\fc8d401a3ddeb03b0d602593434a4990\transformed\jetified-lifecycle-process-2.7.0\res
 com.example.libreserve.app-slidingpanelayout-1.2.0-44 C:\Users\Amazoft Intern\.gradle\caches\transforms-3\feb54dd2f50909c5c96f27ca69af84c7\transformed\slidingpanelayout-1.2.0\res
-com.example.libreserve.app-pngs-45 C:\Users\Amazoft Intern\Downloads\ReserveX\app\build\generated\res\pngs\debug
-com.example.libreserve.app-resValues-46 C:\Users\Amazoft Intern\Downloads\ReserveX\app\build\generated\res\resValues\debug
-com.example.libreserve.app-packageDebugResources-47 C:\Users\Amazoft Intern\Downloads\ReserveX\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.libreserve.app-packageDebugResources-48 C:\Users\Amazoft Intern\Downloads\ReserveX\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.libreserve.app-merged_res-49 C:\Users\Amazoft Intern\Downloads\ReserveX\app\build\intermediates\merged_res\debug
-com.example.libreserve.app-debug-50 C:\Users\Amazoft Intern\Downloads\ReserveX\app\src\debug\res
-com.example.libreserve.app-main-51 C:\Users\Amazoft Intern\Downloads\ReserveX\app\src\main\res
+com.example.libreserve.app-pngs-45 C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\build\generated\res\pngs\debug
+com.example.libreserve.app-resValues-46 C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\build\generated\res\resValues\debug
+com.example.libreserve.app-packageDebugResources-47 C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.libreserve.app-packageDebugResources-48 C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.libreserve.app-merged_res-49 C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\build\intermediates\merged_res\debug
+com.example.libreserve.app-debug-50 C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\debug\res
+com.example.libreserve.app-main-51 C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\res

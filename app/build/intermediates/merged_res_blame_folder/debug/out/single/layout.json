@@ -1,131 +1,119 @@
 [
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\fragment_sign_up.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_sign_up.xml"
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/activity_auth.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/activity_auth.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\fragment_notifications.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_notifications.xml"
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/fragment_explore.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_explore.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\fragment_meeting_rooms.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_meeting_rooms.xml"
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/fragment_modify_reservation.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_modify_reservation.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\activity_auth.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\activity_auth.xml"
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/fragment_profile.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_profile.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\item_onboarding_page.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\item_onboarding_page.xml"
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/fragment_room_confirm.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_room_confirm.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\item_notification.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\item_notification.xml"
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/fragment_seat_confirm.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_seat_confirm.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\fragment_room_confirm.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_room_confirm.xml"
-    },
-    {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\fragment_modify_reservation.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_modify_reservation.xml"
-    },
-    {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\fragment_book_detail.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_book_detail.xml"
-    },
-    {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\fragment_book_reservation.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_book_reservation.xml"
-    },
-    {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\fragment_login.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_login.xml"
-    },
-    {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\item_reservation.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\item_reservation.xml"
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/activity_onboarding.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/activity_onboarding.xml"
     },
     {
         "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/fragment_home.xml",
         "source": "com.example.libreserve.app-main-51:/layout/fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\item_seat.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\item_seat.xml"
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/item_book.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/item_book.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\fragment_home.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_home.xml"
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/fragment_sign_up.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\item_meeting_room.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\item_meeting_room.xml"
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/fragment_login.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_login.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\activity_onboarding.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\activity_onboarding.xml"
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/fragment_seats.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_seats.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\fragment_profile.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_profile.xml"
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/fragment_notifications.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_notifications.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\fragment_seat_map.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_seat_map.xml"
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/fragment_book_detail.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_book_detail.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\fragment_confirmation.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_confirmation.xml"
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/item_explore_result.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/item_explore_result.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\item_time_slot.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\item_time_slot.xml"
-    },
-    {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\fragment_time_slots.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_time_slots.xml"
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/item_notification.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/item_notification.xml"
     },
     {
         "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/item_seat.xml",
         "source": "com.example.libreserve.app-main-51:/layout/item_seat.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\fragment_reservations.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_reservations.xml"
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/item_time_slot.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/item_time_slot.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\fragment_books.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_books.xml"
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/fragment_time_slots.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_time_slots.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\item_book.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\item_book.xml"
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/activity_main.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\item_explore_result.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\item_explore_result.xml"
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/item_reservation.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/item_reservation.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\fragment_seats.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_seats.xml"
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/fragment_reservations.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_reservations.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\fragment_explore.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_explore.xml"
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/fragment_books.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_books.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\fragment_seat_confirm.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_seat_confirm.xml"
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/fragment_meeting_rooms.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_meeting_rooms.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\activity_main.xml"
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/item_onboarding_page.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/item_onboarding_page.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-mergeDebugResources-48:\\layout\\activity_splash.xml",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\activity_splash.xml"
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/fragment_confirmation.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_confirmation.xml"
+    },
+    {
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/fragment_book_reservation.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_book_reservation.xml"
+    },
+    {
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/activity_splash.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/item_meeting_room.xml",
+        "source": "com.example.libreserve.app-main-51:/layout/item_meeting_room.xml"
     },
     {
         "merged": "com.example.libreserve.app-mergeDebugResources-48:/layout/fragment_seat_map.xml",

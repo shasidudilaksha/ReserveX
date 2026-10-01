@@ -1,307 +1,271 @@
 [
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_info.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_info.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_fragment_books.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_books.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_dot_inactive.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_dot_inactive.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_seat_selected.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_seat_selected.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_people.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_people.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_fragment_time_slots.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_time_slots.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_timeslot_selected.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_timeslot_selected.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_gradient_blue.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_gradient_blue.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\navigation_nav_main.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\navigation\\nav_main.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_feature_card_books.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_feature_card_books.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_fragment_book_detail.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_book_detail.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_fragment_book_reservation.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_book_reservation.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_fast_pass.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_fast_pass.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_gradient_purple.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_gradient_purple.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_study_chair.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_study_chair.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_seat.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/ic_seat.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_person.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_person.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_item_onboarding_page.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/item_onboarding_page.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_fragment_confirmation.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_confirmation.xml"
-    },
-    {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_seat_selected.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_seat_selected.xml"
-    },
-    {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_arrow_forward.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_arrow_forward.xml"
-    },
-    {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_fragment_books.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_books.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/menu/bottom_nav_menu.xml"
     },
     {
         "merged": "com.example.libreserve.app-merged_res-49:/layout_item_seat.xml.flat",
         "source": "com.example.libreserve.app-main-51:/layout/item_seat.xml"
     },
     {
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_seat_reserved.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_seat_reserved.xml"
+    },
+    {
         "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_notification_button.xml.flat",
         "source": "com.example.libreserve.app-main-51:/drawable/bg_notification_button.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_notification_button.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_notification_button.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_signup_header.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_signup_header.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_gradient_green.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_gradient_green.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_status_cancelled.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_status_cancelled.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_status_reserved.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_status_reserved.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_activity_onboarding.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/activity_onboarding.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_gradient_blue.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_gradient_blue.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_status_available.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_status_available.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_gradient_purple.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_gradient_purple.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_edit.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/ic_edit.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_signup_header.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_signup_header.xml"
-    },
-    {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_login_header.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_login_header.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_settings.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/ic_settings.xml"
     },
     {
         "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_study_chair.xml.flat",
         "source": "com.example.libreserve.app-main-51:/drawable/ic_study_chair.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_chip.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_chip.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_gradient_orange.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_gradient_orange.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_fragment_modify_reservation.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_modify_reservation.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_status_reserved.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_status_reserved.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_feature_card_rooms.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_feature_card_rooms.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_email.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/ic_email.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_clock.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_clock.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_onboarding_icon.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_onboarding_icon.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_app_logo.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_app_logo.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_app_logo.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/ic_app_logo.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_item_time_slot.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\item_time_slot.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_lock.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/ic_lock.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\activity_splash.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_app_logo.jpg.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/app_logo.jpg"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_app_logo.jpg.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\app_logo.jpg"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_help.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/ic_help.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_fragment_explore.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_explore.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_timeslot_selected.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_timeslot_selected.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_history.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_history.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_fragment_meeting_rooms.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_meeting_rooms.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_home.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_activity_splash.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_settings.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_settings.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_item_time_slot.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/item_time_slot.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_item_seat.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\item_seat.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_book.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/ic_book.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_fragment_seat_map.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_seat_map.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_home.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/ic_home.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ill_library_corner.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ill_library_corner.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/navigation_nav_auth.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/navigation/nav_auth.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_check_circle.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_check_circle.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_explore.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/ic_explore.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_item_book.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\item_book.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_person.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/ic_person.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_status_available.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_status_available.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_item_reservation.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/item_reservation.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_status_cancelled.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_status_cancelled.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_item_notification.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/item_notification.xml"
+    },
+    {
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_logo.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/ic_logo.xml"
     },
     {
         "merged": "com.example.libreserve.app-merged_res-49:/drawable_ill_library_corner.xml.flat",
         "source": "com.example.libreserve.app-main-51:/drawable/ill_library_corner.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_location.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_location.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_timeslot_normal.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_timeslot_normal.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_fragment_seats.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_seats.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_fragment_profile.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_profile.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_item_meeting_room.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\item_meeting_room.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_fragment_explore.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_explore.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_seat.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_seat.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_filter.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/ic_filter.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_notification.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_notification.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_time_slot_normal.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_time_slot_normal.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_gradient_orange.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_gradient_orange.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_location.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/ic_location.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_item_notification.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\item_notification.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_meeting_room.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/ic_meeting_room.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_feature_card_books.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_feature_card_books.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_calendar.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/ic_calendar.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_activity_onboarding.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\activity_onboarding.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_info.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/ic_info.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_item_explore_result.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\item_explore_result.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_rounded_card.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_rounded_card.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_item_reservation.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\item_reservation.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_item_meeting_room.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/item_meeting_room.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\color_nav_item_color.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\color\\nav_item_color.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_fragment_room_confirm.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_room_confirm.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_fragment_room_confirm.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_room_confirm.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_fragment_notifications.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_notifications.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_fragment_book_reservation.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_book_reservation.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_fragment_modify_reservation.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_modify_reservation.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_fragment_sign_up.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_sign_up.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_fragment_login.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_login.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_rounded_card.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_rounded_card.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_fragment_reservations.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_reservations.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_meeting_room.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_meeting_room.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_feature_card_seats.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_feature_card_seats.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_edit.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_edit.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_search.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/ic_search.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_dot_green.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_dot_green.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_notification_unread.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_notification_unread.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_seat_unavailable.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_seat_unavailable.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_input_field.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_input_field.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_dot_active.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_dot_active.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_activity_main.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_item_onboarding_page.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\item_onboarding_page.xml"
-    },
-    {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_close.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_close.xml"
-    },
-    {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_fragment_time_slots.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_time_slots.xml"
-    },
-    {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_email.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_email.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/color_nav_item_color.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/color/nav_item_color.xml"
     },
     {
         "merged": "com.example.libreserve.app-merged_res-49:/layout_fragment_home.xml.flat",
         "source": "com.example.libreserve.app-main-51:/layout/fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_fragment_notifications.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_notifications.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_check_circle.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/ic_check_circle.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_status_completed.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_status_completed.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_feature_card_rooms.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_feature_card_rooms.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_bell_outline.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_bell_outline.xml"
-    },
-    {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_onboarding_icon.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_onboarding_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_fragment_profile.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_profile.xml"
-    },
-    {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_filter.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_filter.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_gradient_green.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_gradient_green.xml"
     },
     {
         "merged": "com.example.libreserve.app-merged_res-49:/layout_fragment_seat_map.xml.flat",
@@ -312,123 +276,131 @@
         "source": "com.example.libreserve.app-main-51:/drawable/ic_bell_outline.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_help.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_help.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_item_book.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/item_book.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_search.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_search.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_activity_auth.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/activity_auth.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_lock.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_lock.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_close.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/ic_close.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_notification_unread.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_notification_unread.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_profile_header.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_profile_header.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_arrow_back.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_arrow_back.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_home_header.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_home_header.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_time_slot_selected.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_time_slot_selected.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_dot_green.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_dot_green.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_seat_reserved.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_seat_reserved.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_people.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/ic_people.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_fragment_seat_confirm.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_seat_confirm.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_primary_button.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_primary_button.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_input_field.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_input_field.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/navigation_nav_main.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/navigation/nav_main.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_primary_button.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_primary_button.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_fragment_sign_up.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_status_upcoming.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_status_upcoming.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_fragment_book_detail.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_book_detail.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_home.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_home.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_seat_unavailable.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_seat_unavailable.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_seat_available.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_seat_available.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_chip.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_chip.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_explore.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_explore.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_dot_active.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_dot_active.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\navigation_nav_auth.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\navigation\\nav_auth.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_fragment_seat_confirm.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_seat_confirm.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_logo.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_logo.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_fragment_confirmation.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_confirmation.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_calendar.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_calendar.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_login_header.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_login_header.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_profile_header.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_profile_header.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_clock.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/ic_clock.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_circle_primary.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_circle_primary.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_fast_pass.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_fast_pass.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_fragment_login.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_login.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_item_explore_result.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/item_explore_result.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_timeslot_normal.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_timeslot_normal.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_dot_inactive.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_dot_inactive.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_time_slot_normal.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_time_slot_normal.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_arrow_back.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/ic_arrow_back.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_home_header.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_home_header.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_status_completed.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_status_completed.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\menu_bottom_nav_menu.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\menu\\bottom_nav_menu.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_stats_card.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_stats_card.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_fragment_meeting_rooms.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_meeting_rooms.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/layout_fragment_seats.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/layout/fragment_seats.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_feature_card_seats.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_feature_card_seats.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_circle_primary.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_circle_primary.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_ic_book.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\ic_book.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_arrow_forward.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/ic_arrow_forward.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_fragment_reservations.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\fragment_reservations.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_seat_available.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_seat_available.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\layout_activity_auth.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\layout\\activity_auth.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_status_upcoming.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_status_upcoming.xml"
     },
     {
-        "merged": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-merged_res-49:\\drawable_bg_stats_card.xml.flat",
-        "source": "C:\\Users\\Amazoft Intern\\.gradle\\daemon\\8.4\\com.example.libreserve.app-main-51:\\drawable\\bg_stats_card.xml"
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_bg_time_slot_selected.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/bg_time_slot_selected.xml"
+    },
+    {
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_history.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/ic_history.xml"
+    },
+    {
+        "merged": "com.example.libreserve.app-merged_res-49:/drawable_ic_notification.xml.flat",
+        "source": "com.example.libreserve.app-main-51:/drawable/ic_notification.xml"
     }
 ]

@@ -1,7 +1,22 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
 }
+
+val supabaseProperties = Properties().apply {
+    val config = rootProject.file("supabase.properties")
+    if (config.exists()) config.inputStream().use { load(it) }
+}
+
+fun supabaseSetting(name: String): String =
+    providers.environmentVariable(name).orNull?.trim()?.takeIf { it.isNotEmpty() }
+        ?: supabaseProperties.getProperty(name, "").trim()
+
+fun buildConfigString(value: String): String = "\"" + value
+    .replace("\\", "\\\\").replace("\"", "\\\"")
+    .replace("\n", "\\n").replace("\r", "\\r") + "\""
 
 android {
     namespace = "com.example.libreserve"
@@ -14,6 +29,8 @@ android {
         versionCode = 1
         versionName = "1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField("String", "SUPABASE_URL", buildConfigString(supabaseSetting("SUPABASE_URL")))
+        buildConfigField("String", "SUPABASE_PUBLISHABLE_KEY", buildConfigString(supabaseSetting("SUPABASE_PUBLISHABLE_KEY")))
     }
 
     buildTypes {
@@ -37,6 +54,7 @@ android {
 
     buildFeatures {
         viewBinding = true
+        buildConfig = true
     }
 }
 
