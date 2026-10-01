@@ -4,6 +4,7 @@ package com.example.libreserve.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CheckBox;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -23,6 +24,9 @@ public final class FragmentSignUpBinding implements ViewBinding {
 
   @NonNull
   public final MaterialButton btnSignUp;
+
+  @NonNull
+  public final CheckBox cbTerms;
 
   @NonNull
   public final TextInputLayout tilConfirmPassword;
@@ -49,12 +53,13 @@ public final class FragmentSignUpBinding implements ViewBinding {
   public final TextView tvSubtitle;
 
   private FragmentSignUpBinding(@NonNull ScrollView rootView, @NonNull MaterialButton btnSignUp,
-      @NonNull TextInputLayout tilConfirmPassword, @NonNull TextInputLayout tilEmail,
-      @NonNull TextInputLayout tilName, @NonNull TextInputLayout tilPassword,
-      @NonNull TextInputLayout tilStudentId, @NonNull TextView tvCreateAccount,
-      @NonNull TextView tvLogin, @NonNull TextView tvSubtitle) {
+      @NonNull CheckBox cbTerms, @NonNull TextInputLayout tilConfirmPassword,
+      @NonNull TextInputLayout tilEmail, @NonNull TextInputLayout tilName,
+      @NonNull TextInputLayout tilPassword, @NonNull TextInputLayout tilStudentId,
+      @NonNull TextView tvCreateAccount, @NonNull TextView tvLogin, @NonNull TextView tvSubtitle) {
     this.rootView = rootView;
     this.btnSignUp = btnSignUp;
+    this.cbTerms = cbTerms;
     this.tilConfirmPassword = tilConfirmPassword;
     this.tilEmail = tilEmail;
     this.tilName = tilName;
@@ -95,6 +100,12 @@ public final class FragmentSignUpBinding implements ViewBinding {
       id = R.id.btnSignUp;
       MaterialButton btnSignUp = ViewBindings.findChildViewById(rootView, id);
       if (btnSignUp == null) {
+        break missingId;
+      }
+
+      id = R.id.cbTerms;
+      CheckBox cbTerms = ViewBindings.findChildViewById(rootView, id);
+      if (cbTerms == null) {
         break missingId;
       }
 
@@ -146,8 +157,9 @@ public final class FragmentSignUpBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentSignUpBinding((ScrollView) rootView, btnSignUp, tilConfirmPassword,
-          tilEmail, tilName, tilPassword, tilStudentId, tvCreateAccount, tvLogin, tvSubtitle);
+      return new FragmentSignUpBinding((ScrollView) rootView, btnSignUp, cbTerms,
+          tilConfirmPassword, tilEmail, tilName, tilPassword, tilStudentId, tvCreateAccount,
+          tvLogin, tvSubtitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

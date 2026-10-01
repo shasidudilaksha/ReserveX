@@ -199,6 +199,7 @@ id cardEvening
 id cardMorning
 id cardRooms
 id cardSeats
+id cbTerms
 id chipAll
 id chipAvailable
 id chipBooks

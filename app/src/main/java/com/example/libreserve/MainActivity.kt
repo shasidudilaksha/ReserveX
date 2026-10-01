@@ -13,6 +13,11 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        if (!com.example.libreserve.utils.SessionManager(this).isLoggedIn) {
+            startActivity(android.content.Intent(this, com.example.libreserve.ui.auth.AuthActivity::class.java))
+            finish()
+            return
+        }
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 

@@ -57,7 +57,7 @@ class RoomConfirmFragment : Fragment() {
         binding.buttonConfirmRoom.setOnClickListener {
             val reservation = Reservation(
                 reservationId = UUID.randomUUID().toString(),
-                userId = "user001",
+                userId = com.example.libreserve.utils.SessionManager(requireContext()).userId,
                 type = ReservationType.MEETING_ROOM,
                 resourceId = roomId,
                 resourceName = roomName,
@@ -69,7 +69,7 @@ class RoomConfirmFragment : Fragment() {
                 status = ReservationStatus.UPCOMING,
                 location = location
             )
-            reservationViewModel.addReservation(reservation, "user001")
+            reservationViewModel.addReservation(reservation, com.example.libreserve.utils.SessionManager(requireContext()).userId)
 
             val bundle = Bundle().apply {
                 putString("reservationType", ReservationType.MEETING_ROOM.name)

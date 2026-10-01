@@ -91,7 +91,7 @@ class HomeFragment : Fragment() {
                 binding.emptyReservationState.visibility = View.VISIBLE
             }
         }
-        reservationViewModel.loadReservations("user001")
+        reservationViewModel.loadReservations(com.example.libreserve.utils.SessionManager(requireContext()).userId)
     }
 
     override fun onDestroyView() {

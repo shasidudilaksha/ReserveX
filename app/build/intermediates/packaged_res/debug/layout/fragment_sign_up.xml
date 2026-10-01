@@ -88,7 +88,7 @@
                     android:textSize="16sp"/>
             </com.google.android.material.textfield.TextInputLayout>
 
-            <!-- Student ID Input (required by code) -->
+            <!-- Student ID saved to the database profile -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -99,13 +99,13 @@
                 android:letterSpacing="0.1"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="8dp"
-                android:visibility="gone"/>
+                android:visibility="visible"/>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/tilStudentId"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="gone"
+                android:visibility="visible"
                 app:hintEnabled="false"
                 app:boxBackgroundMode="none">
 
@@ -117,7 +117,6 @@
                     android:hint="S12345678"
                     android:textColorHint="#BDBDBD"
                     android:inputType="text"
-                    android:text="S12345678"
                     android:textColor="#212121"
                     android:textSize="16sp"/>
             </com.google.android.material.textfield.TextInputLayout>
@@ -196,13 +195,13 @@
                 android:letterSpacing="0.1"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="8dp"
-                android:visibility="gone"/>
+                android:visibility="visible"/>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/tilConfirmPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="gone"
+                android:visibility="visible"
                 app:hintEnabled="false"
                 app:passwordToggleEnabled="true"
                 app:boxBackgroundMode="none">
@@ -228,6 +227,7 @@
                 android:layout_marginTop="16dp">
                 
                 <CheckBox
+                    android:id="@+id/cbTerms"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:buttonTint="#FF8A65" />

@@ -2,13 +2,14 @@ package com.example.libreserve.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
+import android.app.Application
+import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
 import com.example.libreserve.model.*
 import com.example.libreserve.utils.*
 
-class HomeViewModel : ViewModel() {
+class HomeViewModel(application: Application) : AndroidViewModel(application) {
     private val _stats = MutableLiveData<HomeStats>()
     val stats: LiveData<HomeStats> = _stats
     
@@ -26,7 +27,8 @@ class HomeViewModel : ViewModel() {
             _greeting.value = DateTimeUtils.getGreeting()
             _stats.value = MockDataProvider.getHomeStats()
             _upcomingReservation.value = MockDataProvider.getUpcomingReservation(userId)
-            _user.value = MockDataProvider.getUser()
+            val session = SessionManager(getApplication())
+            _user.value = User(session.userId, session.userName, session.studentId, session.userEmail)
         }
     }
 }

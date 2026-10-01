@@ -35,7 +35,7 @@ public final class ItemReservationBinding implements ViewBinding {
   public final ImageView ivTypeIcon;
 
   @NonNull
-  public final LinearLayout statusBar;
+  public final View statusBar;
 
   @NonNull
   public final TextView tvDate;
@@ -48,9 +48,8 @@ public final class ItemReservationBinding implements ViewBinding {
 
   private ItemReservationBinding(@NonNull MaterialCardView rootView,
       @NonNull LinearLayout actionsRow, @NonNull MaterialButton btnCancel,
-      @NonNull MaterialButton btnModify, @NonNull ImageView ivTypeIcon,
-      @NonNull LinearLayout statusBar, @NonNull TextView tvDate, @NonNull TextView tvResourceName,
-      @NonNull TextView tvTime) {
+      @NonNull MaterialButton btnModify, @NonNull ImageView ivTypeIcon, @NonNull View statusBar,
+      @NonNull TextView tvDate, @NonNull TextView tvResourceName, @NonNull TextView tvTime) {
     this.rootView = rootView;
     this.actionsRow = actionsRow;
     this.btnCancel = btnCancel;
@@ -114,7 +113,7 @@ public final class ItemReservationBinding implements ViewBinding {
       }
 
       id = R.id.statusBar;
-      LinearLayout statusBar = ViewBindings.findChildViewById(rootView, id);
+      View statusBar = ViewBindings.findChildViewById(rootView, id);
       if (statusBar == null) {
         break missingId;
       }

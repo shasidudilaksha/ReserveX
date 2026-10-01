@@ -34,7 +34,7 @@ class ReservationsFragment : Fragment() {
         
         val adapter = ReservationAdapter(
             onCancelClick = { reservation ->
-                viewModel.cancelReservation(reservation.reservationId, "user001")
+                viewModel.cancelReservation(reservation.reservationId, com.example.libreserve.utils.SessionManager(requireContext()).userId)
                 Toast.makeText(requireContext(), "Reservation cancelled", Toast.LENGTH_SHORT).show()
             },
             onModifyClick = { reservation ->
@@ -60,7 +60,7 @@ class ReservationsFragment : Fragment() {
             override fun onTabReselected(tab: TabLayout.Tab?) {}
         })
         
-        viewModel.loadReservations("user001")
+        viewModel.loadReservations(com.example.libreserve.utils.SessionManager(requireContext()).userId)
     }
     
     private fun updateTabList(adapter: ReservationAdapter, position: Int) {
