@@ -1,7 +1,5 @@
 package com.example.libreserve.ui.seats
 
-import android.app.DatePickerDialog
-import android.app.TimePickerDialog
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -14,22 +12,15 @@ import com.example.libreserve.databinding.FragmentSeatConfirmBinding
 import com.example.libreserve.model.Reservation
 import com.example.libreserve.model.ReservationStatus
 import com.example.libreserve.model.ReservationType
+import com.example.libreserve.utils.SessionManager
 import com.example.libreserve.viewmodel.ReservationViewModel
-import java.text.SimpleDateFormat
-import java.util.*
+import java.util.UUID
 
 class SeatConfirmFragment : Fragment() {
 
     private var _binding: FragmentSeatConfirmBinding? = null
     private val binding get() = _binding!!
     private val reservationViewModel: ReservationViewModel by activityViewModels()
-    
-    private var selectedDate = Calendar.getInstance()
-    private var startTime = Calendar.getInstance().apply { set(Calendar.HOUR_OF_DAY, 9); set(Calendar.MINUTE, 0) }
-    private var endTime = Calendar.getInstance().apply { set(Calendar.HOUR_OF_DAY, 12); set(Calendar.MINUTE, 0) }
-    
-    private val dateFormat = SimpleDateFormat("dd MMMM yyyy", Locale.getDefault())
-    private val timeFormat = SimpleDateFormat("hh:mm a", Locale.getDefault())
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -41,65 +32,28 @@ class SeatConfirmFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val areaName = arguments?.getString("areaName") ?: ""
+
+        val areaName = arguments?.getString("areaName") ?: "Quiet Zone"
         val seatNames = arguments?.getString("seatNames") ?: ""
-        
-        updateSummary(areaName, seatNames)
-        
-        binding.btnSelectDate.setOnClickListener {
-            DatePickerDialog(
-                requireContext(),
-                { _, year, month, dayOfMonth ->
-                    selectedDate.set(Calendar.YEAR, year)
-                    selectedDate.set(Calendar.MONTH, month)
-                    selectedDate.set(Calendar.DAY_OF_MONTH, dayOfMonth)
-                    updateSummary(areaName, seatNames)
-                },
-                selectedDate.get(Calendar.YEAR),
-                selectedDate.get(Calendar.MONTH),
-                selectedDate.get(Calendar.DAY_OF_MONTH)
-            ).show()
-        }
-        
-        binding.btnSelectStart.setOnClickListener {
-            TimePickerDialog(
-                requireContext(),
-                { _, hourOfDay, minute ->
-                    startTime.set(Calendar.HOUR_OF_DAY, hourOfDay)
-                    startTime.set(Calendar.MINUTE, minute)
-                    updateSummary(areaName, seatNames)
-                },
-                startTime.get(Calendar.HOUR_OF_DAY),
-                startTime.get(Calendar.MINUTE),
-                false
-            ).show()
-        }
-        
-        binding.btnSelectEnd.setOnClickListener {
-            TimePickerDialog(
-                requireContext(),
-                { _, hourOfDay, minute ->
-                    endTime.set(Calendar.HOUR_OF_DAY, hourOfDay)
-                    endTime.set(Calendar.MINUTE, minute)
-                    updateSummary(areaName, seatNames)
-                },
-                endTime.get(Calendar.HOUR_OF_DAY),
-                endTime.get(Calendar.MINUTE),
-                false
-            ).show()
-        }
-        
+        val dateStr = arguments?.getString("selectedDate") ?: "Today"
+        val timeSlot = arguments?.getString("timeSlot") ?: "Morning"
+        val startStr = arguments?.getString("startTime") ?: "09:00 AM"
+        val endStr = arguments?.getString("endTime") ?: "12:00 PM"
+
+        binding.tvConfirmSeatTitle.text = areaName
+        binding.tvConfirmSeatSummary.text = if (seatNames.isNotBlank()) "Seat $seatNames" else "Seat Selected"
+        binding.tvConfirmSeatDate.text = dateStr
+        binding.tvConfirmSeatTime.text = "$timeSlot ($startStr – $endStr)"
+        binding.tvConfirmSeatLocation.text = "SLIIT Malabe Library, $areaName"
+
         binding.buttonConfirmSeat.setOnClickListener {
-            val dateStr = dateFormat.format(selectedDate.time)
-            val startStr = timeFormat.format(startTime.time)
-            val endStr = timeFormat.format(endTime.time)
-            
+            val resourceName = "$areaName - Seat $seatNames"
             val reservation = Reservation(
                 reservationId = UUID.randomUUID().toString(),
-                userId = com.example.libreserve.utils.SessionManager(requireContext()).userId,
+                userId = SessionManager(requireContext()).userId,
                 type = ReservationType.SEAT,
                 resourceId = "seat_$seatNames",
-                resourceName = "$areaName - Seat(s) $seatNames",
+                resourceName = resourceName,
                 libraryId = "lib001",
                 libraryName = "SLIIT Malabe Library",
                 date = dateStr,
@@ -108,11 +62,11 @@ class SeatConfirmFragment : Fragment() {
                 status = ReservationStatus.UPCOMING,
                 location = areaName
             )
-            reservationViewModel.addReservation(reservation, com.example.libreserve.utils.SessionManager(requireContext()).userId)
-            
+            reservationViewModel.addReservation(reservation, SessionManager(requireContext()).userId)
+
             val bundle = Bundle().apply {
                 putString("reservationType", ReservationType.SEAT.name)
-                putString("resourceName", "$areaName - Seat(s) $seatNames")
+                putString("resourceName", resourceName)
                 putString("dateStr", dateStr)
                 putString("startTime", startStr)
                 putString("endTime", endStr)
@@ -121,10 +75,6 @@ class SeatConfirmFragment : Fragment() {
             }
             findNavController().navigate(R.id.action_seat_confirm_to_confirmation, bundle)
         }
-    }
-    
-    private fun updateSummary(areaName: String, seatNames: String) {
-        binding.textViewSeatSummary.text = "Location: $areaName\nSeats: $seatNames\nDate: ${dateFormat.format(selectedDate.time)}\nTime: ${timeFormat.format(startTime.time)} - ${timeFormat.format(endTime.time)}"
     }
 
     override fun onDestroyView() {

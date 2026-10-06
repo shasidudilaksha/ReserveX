@@ -49,18 +49,16 @@
         <argument android:name="libraryName" app:argType="string" />
         <argument android:name="selectedDate" app:argType="string" />
         <argument android:name="selectedTime" app:argType="string" />
-        <action android:id="@+id/action_seat_map_to_confirm" app:destination="@id/confirmationFragment" app:popUpTo="@id/homeFragment" />
+        <action android:id="@+id/action_seat_map_to_confirm" app:destination="@id/seatConfirmFragment" />
     </fragment>
 
     <fragment android:id="@+id/seatConfirmFragment" android:name="com.example.libreserve.ui.seats.SeatConfirmFragment">
-        <argument android:name="seatId" app:argType="string" />
-        <argument android:name="seatNumber" app:argType="string" />
-        <argument android:name="areaName" app:argType="string" />
-        <argument android:name="libraryId" app:argType="string" />
-        <argument android:name="libraryName" app:argType="string" />
-        <argument android:name="selectedDate" app:argType="string" />
-        <argument android:name="startTime" app:argType="string" />
-        <argument android:name="endTime" app:argType="string" />
+        <argument android:name="areaName" app:argType="string" android:defaultValue="" />
+        <argument android:name="seatNames" app:argType="string" android:defaultValue="" />
+        <argument android:name="selectedDate" app:argType="string" android:defaultValue="" />
+        <argument android:name="timeSlot" app:argType="string" android:defaultValue="" />
+        <argument android:name="startTime" app:argType="string" android:defaultValue="" />
+        <argument android:name="endTime" app:argType="string" android:defaultValue="" />
         <action android:id="@+id/action_seat_confirm_to_confirmation" app:destination="@id/confirmationFragment" app:popUpTo="@id/homeFragment" />
     </fragment>
 

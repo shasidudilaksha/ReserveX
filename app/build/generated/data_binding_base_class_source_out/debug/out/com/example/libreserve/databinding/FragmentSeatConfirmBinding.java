@@ -21,43 +21,34 @@ public final class FragmentSeatConfirmBinding implements ViewBinding {
   private final NestedScrollView rootView;
 
   @NonNull
-  public final TextView btnSelectDate;
-
-  @NonNull
-  public final MaterialButton btnSelectEnd;
-
-  @NonNull
-  public final MaterialButton btnSelectStart;
-
-  @NonNull
   public final MaterialButton buttonConfirmSeat;
 
   @NonNull
-  public final TextView textViewSeatSummary;
+  public final TextView tvConfirmSeatDate;
 
   @NonNull
-  public final TextView tvDateDay;
+  public final TextView tvConfirmSeatLocation;
 
   @NonNull
-  public final TextView tvDateFull;
+  public final TextView tvConfirmSeatSummary;
 
   @NonNull
-  public final TextView tvTimeRange;
+  public final TextView tvConfirmSeatTime;
+
+  @NonNull
+  public final TextView tvConfirmSeatTitle;
 
   private FragmentSeatConfirmBinding(@NonNull NestedScrollView rootView,
-      @NonNull TextView btnSelectDate, @NonNull MaterialButton btnSelectEnd,
-      @NonNull MaterialButton btnSelectStart, @NonNull MaterialButton buttonConfirmSeat,
-      @NonNull TextView textViewSeatSummary, @NonNull TextView tvDateDay,
-      @NonNull TextView tvDateFull, @NonNull TextView tvTimeRange) {
+      @NonNull MaterialButton buttonConfirmSeat, @NonNull TextView tvConfirmSeatDate,
+      @NonNull TextView tvConfirmSeatLocation, @NonNull TextView tvConfirmSeatSummary,
+      @NonNull TextView tvConfirmSeatTime, @NonNull TextView tvConfirmSeatTitle) {
     this.rootView = rootView;
-    this.btnSelectDate = btnSelectDate;
-    this.btnSelectEnd = btnSelectEnd;
-    this.btnSelectStart = btnSelectStart;
     this.buttonConfirmSeat = buttonConfirmSeat;
-    this.textViewSeatSummary = textViewSeatSummary;
-    this.tvDateDay = tvDateDay;
-    this.tvDateFull = tvDateFull;
-    this.tvTimeRange = tvTimeRange;
+    this.tvConfirmSeatDate = tvConfirmSeatDate;
+    this.tvConfirmSeatLocation = tvConfirmSeatLocation;
+    this.tvConfirmSeatSummary = tvConfirmSeatSummary;
+    this.tvConfirmSeatTime = tvConfirmSeatTime;
+    this.tvConfirmSeatTitle = tvConfirmSeatTitle;
   }
 
   @Override
@@ -87,57 +78,45 @@ public final class FragmentSeatConfirmBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btnSelectDate;
-      TextView btnSelectDate = ViewBindings.findChildViewById(rootView, id);
-      if (btnSelectDate == null) {
-        break missingId;
-      }
-
-      id = R.id.btnSelectEnd;
-      MaterialButton btnSelectEnd = ViewBindings.findChildViewById(rootView, id);
-      if (btnSelectEnd == null) {
-        break missingId;
-      }
-
-      id = R.id.btnSelectStart;
-      MaterialButton btnSelectStart = ViewBindings.findChildViewById(rootView, id);
-      if (btnSelectStart == null) {
-        break missingId;
-      }
-
       id = R.id.buttonConfirmSeat;
       MaterialButton buttonConfirmSeat = ViewBindings.findChildViewById(rootView, id);
       if (buttonConfirmSeat == null) {
         break missingId;
       }
 
-      id = R.id.textViewSeatSummary;
-      TextView textViewSeatSummary = ViewBindings.findChildViewById(rootView, id);
-      if (textViewSeatSummary == null) {
+      id = R.id.tvConfirmSeatDate;
+      TextView tvConfirmSeatDate = ViewBindings.findChildViewById(rootView, id);
+      if (tvConfirmSeatDate == null) {
         break missingId;
       }
 
-      id = R.id.tvDateDay;
-      TextView tvDateDay = ViewBindings.findChildViewById(rootView, id);
-      if (tvDateDay == null) {
+      id = R.id.tvConfirmSeatLocation;
+      TextView tvConfirmSeatLocation = ViewBindings.findChildViewById(rootView, id);
+      if (tvConfirmSeatLocation == null) {
         break missingId;
       }
 
-      id = R.id.tvDateFull;
-      TextView tvDateFull = ViewBindings.findChildViewById(rootView, id);
-      if (tvDateFull == null) {
+      id = R.id.tvConfirmSeatSummary;
+      TextView tvConfirmSeatSummary = ViewBindings.findChildViewById(rootView, id);
+      if (tvConfirmSeatSummary == null) {
         break missingId;
       }
 
-      id = R.id.tvTimeRange;
-      TextView tvTimeRange = ViewBindings.findChildViewById(rootView, id);
-      if (tvTimeRange == null) {
+      id = R.id.tvConfirmSeatTime;
+      TextView tvConfirmSeatTime = ViewBindings.findChildViewById(rootView, id);
+      if (tvConfirmSeatTime == null) {
         break missingId;
       }
 
-      return new FragmentSeatConfirmBinding((NestedScrollView) rootView, btnSelectDate,
-          btnSelectEnd, btnSelectStart, buttonConfirmSeat, textViewSeatSummary, tvDateDay,
-          tvDateFull, tvTimeRange);
+      id = R.id.tvConfirmSeatTitle;
+      TextView tvConfirmSeatTitle = ViewBindings.findChildViewById(rootView, id);
+      if (tvConfirmSeatTitle == null) {
+        break missingId;
+      }
+
+      return new FragmentSeatConfirmBinding((NestedScrollView) rootView, buttonConfirmSeat,
+          tvConfirmSeatDate, tvConfirmSeatLocation, tvConfirmSeatSummary, tvConfirmSeatTime,
+          tvConfirmSeatTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

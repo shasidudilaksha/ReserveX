@@ -175,8 +175,6 @@ id btnNext
 id btnNotifications
 id btnSave
 id btnSelectDate
-id btnSelectEnd
-id btnSelectStart
 id btnSelectTime
 id btnSignUp
 id btnSkip
@@ -288,7 +286,6 @@ id textViewRoomSummary
 id textViewRoomTime
 id textViewRoomTitle
 id textViewSeatNumber
-id textViewSeatSummary
 id textViewSelectedInfo
 id textViewSelectedSlot
 id textViewSlotMeta
@@ -306,13 +303,16 @@ id tvAppName
 id tvAvailability
 id tvAvailableCount
 id tvBadge
+id tvConfirmSeatDate
+id tvConfirmSeatLocation
+id tvConfirmSeatSummary
+id tvConfirmSeatTime
+id tvConfirmSeatTitle
 id tvConfirmationNote
 id tvConfirmationSubtitle
 id tvConfirmationTitle
 id tvCreateAccount
 id tvDate
-id tvDateDay
-id tvDateFull
 id tvDescription
 id tvEmptyState
 id tvForgotPassword
@@ -340,7 +340,6 @@ id tvTime
 id tvTimeAfternoon
 id tvTimeEvening
 id tvTimeMorning
-id tvTimeRange
 id tvTitle
 id tvTitleAfternoon
 id tvTitleEvening

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:2:1-39:12
 MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Users\Amazoft Intern\.gradle\caches\transforms-3\d460d182bad700eababbb6d42aa9f3a6\transformed\jetified-viewbinding-8.2.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\Amazoft Intern\.gradle\caches\transforms-3\8914c550b9c31e9cfbc766557656b15c\transformed\navigation-common-2.7.7\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\Amazoft Intern\.gradle\caches\transforms-3\55329176c1418bad66644ba28ba81ff7\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
@@ -72,13 +72,9 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Amazoft Intern\.gradle\caches\
 		INJECTED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:2:11-69
-uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:4:5-67
-	android:name
-		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:6:5-40:19
-INJECTED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:6:5-40:19
+ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:4:5-38:19
+INJECTED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:4:5-38:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Amazoft Intern\.gradle\caches\transforms-3\c006c7e4abea24f449d8c80c9e056f58\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Amazoft Intern\.gradle\caches\transforms-3\c006c7e4abea24f449d8c80c9e056f58\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Amazoft Intern\.gradle\caches\transforms-3\2a79237028878ecf82651907de158179\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -102,61 +98,61 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Amazoft Intern\.gr
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] C:\Users\Amazoft Intern\.gradle\caches\transforms-3\01be542a8a7642ecba403b94caa2bdf6\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:9:9-35
 	android:label
-		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:7:9-41
 	android:roundIcon
-		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:10:9-47
+		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:8:9-47
 	android:icon
-		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:8:9-42
+		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:6:9-42
 	android:allowBackup
-		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:5:9-35
 	android:theme
-		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:12:9-48
+		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:10:9-48
 activity#com.example.libreserve.SplashActivity
-ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:14:9-23:20
+ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:12:9-21:20
 	android:noHistory
-		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:17:13-37
+		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:15:13-37
 	android:exported
-		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:16:13-36
+		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:14:13-36
 	android:theme
-		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:18:13-59
+		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:16:13-59
 	android:name
-		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:15:13-43
+		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:13:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:19:13-22:29
+ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:17:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:19:27-74
 activity#com.example.libreserve.ui.onboarding.OnboardingActivity
-ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:25:9-28:40
+ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:23:9-26:40
 	android:noHistory
-		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:28:13-37
+		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:26:13-37
 	android:exported
-		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:27:13-37
+		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:26:13-61
+		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:24:13-61
 activity#com.example.libreserve.ui.auth.AuthActivity
-ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:30:9-33:40
+ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:28:9-31:40
 	android:noHistory
-		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:33:13-37
+		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:31:13-37
 	android:exported
-		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:32:13-37
+		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:31:13-49
+		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:29:13-49
 activity#com.example.libreserve.MainActivity
-ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:35:9-38:46
+ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:33:9-36:46
 	android:launchMode
-		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:38:13-43
+		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:36:13-43
 	android:exported
-		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:37:13-37
+		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:36:13-41
+		ADDED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml:34:13-41
 uses-sdk
 INJECTED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Amazoft Intern\Documents\GitHub\ReserveX\app\src\main\AndroidManifest.xml

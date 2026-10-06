@@ -1,5 +1,6 @@
 package com.example.libreserve.ui.seats
 
+import android.graphics.Rect
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -9,25 +10,18 @@ import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import android.graphics.Rect
-import com.example.libreserve.utils.UiMotion
 import com.example.libreserve.R
 import com.example.libreserve.adapter.SeatAdapter
 import com.example.libreserve.databinding.FragmentSeatMapBinding
-import com.example.libreserve.model.Reservation
-import com.example.libreserve.model.ReservationStatus
-import com.example.libreserve.model.ReservationType
 import com.example.libreserve.model.SeatStatus
-import com.example.libreserve.viewmodel.ReservationViewModel
+import com.example.libreserve.utils.UiMotion
 import com.example.libreserve.viewmodel.SeatViewModel
-import java.util.UUID
 
 class SeatMapFragment : Fragment() {
 
     private var _binding: FragmentSeatMapBinding? = null
     private val binding get() = _binding!!
     private val viewModel: SeatViewModel by activityViewModels()
-    private val reservationViewModel: ReservationViewModel by activityViewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -97,32 +91,13 @@ class SeatMapFragment : Fragment() {
                     else -> "09:00 AM" to "12:00 PM"
                 }
                 
-                val resourceName = "$areaName - Seat(s) $seatNames"
-                
-                val reservation = Reservation(
-                    reservationId = UUID.randomUUID().toString(),
-                    userId = com.example.libreserve.utils.SessionManager(requireContext()).userId,
-                    type = ReservationType.SEAT,
-                    resourceId = "seat_$seatNames",
-                    resourceName = resourceName,
-                    libraryId = "lib001",
-                    libraryName = "SLIIT Malabe Library",
-                    date = dateStr,
-                    startTime = startStr,
-                    endTime = endStr,
-                    status = ReservationStatus.UPCOMING,
-                    location = areaName
-                )
-                reservationViewModel.addReservation(reservation, com.example.libreserve.utils.SessionManager(requireContext()).userId)
-                
                 val bundle = Bundle().apply {
-                    putString("reservationType", ReservationType.SEAT.name)
-                    putString("resourceName", resourceName)
-                    putString("dateStr", dateStr)
+                    putString("areaName", areaName)
+                    putString("seatNames", seatNames)
+                    putString("selectedDate", dateStr)
+                    putString("timeSlot", viewModel.selectedTimeSlot ?: "Morning")
                     putString("startTime", startStr)
                     putString("endTime", endStr)
-                    putString("libraryName", "SLIIT Malabe Library")
-                    putString("locationStr", areaName)
                 }
                 findNavController().navigate(R.id.action_seat_map_to_confirm, bundle)
             }
