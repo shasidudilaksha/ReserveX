@@ -76,12 +76,10 @@ Then open the project in Android Studio and run it on an emulator or physical de
 
 ## Important Notes
 
-- Signup, login, profile edits, and logout use Supabase Auth and database profiles.
+- Signup, login, profile edits, and logout use local demo data on the device.
+- Demo login: `student@university.edu` / `password`.
+- Local account storage is for prototyping only; there is no backend authentication.
 - Catalog and reservation screens still use mock repositories and sample data.
-- Supabase schema, connection settings, and an API client are available.
-  Follow [the Supabase setup guide](docs/SUPABASE_SETUP.md) to create the tables
-  and configure your project. Run both SQL migrations before signup; the guide
-  lists the remaining work for live catalog data and reservations.
 - The package name is `com.example.libreserve`.
 - The app name is configured as `ReserveX` in the resources.
 

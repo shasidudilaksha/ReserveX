@@ -7,5 +7,8 @@ object Constants {
     const val KEY_USER_EMAIL = "user_email"
     const val KEY_USER_ID = "user_id"
     const val KEY_STUDENT_ID = "student_id"
+    const val DEMO_EMAIL = "student@university.edu"
+    const val DEMO_PASSWORD = "password"
+    const val DEFAULT_USER_ID = "user001"
     const val DEFAULT_LIBRARY_ID = "lib001"
 }

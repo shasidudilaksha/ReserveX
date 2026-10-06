@@ -10,7 +10,6 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.example.libreserve.databinding.FragmentSignUpBinding
 import com.example.libreserve.viewmodel.AuthViewModel
-import com.example.libreserve.viewmodel.AuthResult
 
 class SignUpFragment : Fragment() {
 
@@ -35,32 +34,16 @@ class SignUpFragment : Fragment() {
             val email = binding.tilEmail.editText?.text.toString()
             val password = binding.tilPassword.editText?.text.toString()
 
-            viewModel.register(name, studentId, email, password,
-                binding.tilConfirmPassword.editText?.text.toString(), binding.cbTerms.isChecked)
-        }
-
-        viewModel.busy.observe(viewLifecycleOwner) { busy ->
-            binding.btnSignUp.isEnabled = !busy
-            binding.tvLogin.isEnabled = !busy
-            binding.btnSignUp.text = if (busy) "Creating account…" else "Create Account"
-        }
-        viewModel.result.observe(viewLifecycleOwner) { result ->
-            when (result) {
-                is AuthResult.Registered -> {
-                    viewModel.consumeResult()
-                    val message = if (result.confirmationRequired)
-                        "Check your email to confirm registration, then sign in. If you already have an account, use sign in."
-                    else "Account created. You can now sign in."
-                    binding.tilPassword.editText?.text?.clear()
-                    binding.tilConfirmPassword.editText?.text?.clear()
-                    Toast.makeText(requireContext(), message, Toast.LENGTH_LONG).show()
-                    findNavController().navigateUp()
-                }
-                is AuthResult.Failure -> {
-                    viewModel.consumeResult()
-                    Toast.makeText(requireContext(), result.message, Toast.LENGTH_LONG).show()
-                }
-                else -> Unit
+            if (name.isNotEmpty() && studentId.isNotEmpty() && email.isNotEmpty() && password.isNotEmpty()) {
+                val sessionManager = com.example.libreserve.utils.SessionManager(requireContext())
+                sessionManager.registeredName = name
+                sessionManager.registeredStudentId = studentId
+                sessionManager.registeredEmail = email
+                sessionManager.registeredPassword = password
+                Toast.makeText(requireContext(), "Account created successfully", Toast.LENGTH_SHORT).show()
+                findNavController().navigateUp()
+            } else {
+                Toast.makeText(requireContext(), "Please fill all fields", Toast.LENGTH_SHORT).show()
             }
         }
         
