@@ -4,7 +4,7 @@
             "outputFile": "com.example.libreserve.app-mergeDebugResources-47:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Amazoft Intern\\.gradle\\caches\\transforms-3\\c006c7e4abea24f449d8c80c9e056f58\\transformed\\material-1.11.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-3\\c006c7e4abea24f449d8c80c9e056f58\\transformed\\material-1.11.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
