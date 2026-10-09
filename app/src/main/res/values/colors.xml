@@ -64,4 +64,15 @@
     
     <color name="colorBottomNavBackground">#FFFFFF</color>
     <color name="colorOverlay">#80000000</color>
+
+    <color name="admin_primary">#4F46E5</color>
+    <color name="admin_primary_dark">#3730A3</color>
+    <color name="admin_background">#F7F8FC</color>
+    <color name="admin_card">#FFFFFF</color>
+    <color name="admin_text_primary">#111827</color>
+    <color name="admin_text_secondary">#6B7280</color>
+    <color name="admin_green">#10B981</color>
+    <color name="admin_red">#EF4444</color>
+    <color name="admin_orange">#F59E0B</color>
+    <color name="admin_blue">#3B82F6</color>
 </resources>

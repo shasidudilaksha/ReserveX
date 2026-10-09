@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "719143970782",
+    "project_id": "reservex-a6512",
+    "storage_bucket": "reservex-a6512.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719143970782:android:5c8b45f2cf45a290175f4f",
+        "android_client_info": {
+          "package_name": "com.example.libreserve"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgXCQwoK7TvACxcUq9GJjaQq_UrRggZV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

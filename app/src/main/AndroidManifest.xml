@@ -10,17 +10,30 @@
         android:roundIcon="@drawable/app_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.LibReserve">
-        
+
         <activity
-            android:name=".SplashActivity"
-            android:exported="true"
-            android:noHistory="true"
-            android:theme="@style/Theme.LibReserve.Splash">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:name=".admin.AdminLoginActivity"
+            android:exported="true">
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
         </activity>
+
+
+<!--        <activity-->
+<!--            android:name=".SplashActivity"-->
+<!--            android:exported="true"-->
+<!--            android:noHistory="true"-->
+<!--            android:theme="@style/Theme.LibReserve.Splash">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
         
         <activity
             android:name=".ui.onboarding.OnboardingActivity"
@@ -36,6 +49,42 @@
             android:name=".MainActivity"
             android:exported="false"
             android:launchMode="singleTop" />
+
+<!--        <activity-->
+<!--            android:name=".admin.AdminLoginActivity"-->
+<!--            android:exported="false" />-->
+
+        <activity
+            android:name=".admin.AdminDashboardActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.books.ManageBooksActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.books.AddBookActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.books.EditBookActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.seats.ManageSeatsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.rooms.ManageRoomsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.reservations.ManageReservationsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.users.ManageUsersActivity"
+            android:exported="false" />
             
     </application>
 </manifest>
