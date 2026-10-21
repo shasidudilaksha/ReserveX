@@ -25,7 +25,30 @@ class BookAdapter(private val onBookClick: (Book) -> Unit) :
         fun bind(book: Book) {
             binding.textViewTitle.text = book.title
             binding.textViewAuthor.text = book.author
-            binding.textViewStatus.text = if (book.isAvailable) "Available" else "Unavailable"
+            binding.textViewCategory.text = book.category
+            binding.textViewAvailability.text = "${book.availableCopies} of ${book.totalCopies} copies available"
+            val status = when {
+                book.isReservedByUser -> "Reserved for you"
+                book.isAvailable -> "Available"
+                else -> "Unavailable"
+            }
+            binding.textViewStatus.text = status
+            binding.textViewStatus.setChipBackgroundColorResource(
+                when {
+                    book.isReservedByUser -> com.example.libreserve.R.color.colorReservedLight
+                    book.isAvailable -> com.example.libreserve.R.color.colorAvailableLight
+                    else -> com.example.libreserve.R.color.colorUnavailableLight
+                }
+            )
+            binding.textViewStatus.setTextColor(
+                binding.root.context.getColor(
+                    when {
+                        book.isReservedByUser -> com.example.libreserve.R.color.colorReserved
+                        book.isAvailable -> com.example.libreserve.R.color.colorAvailable
+                        else -> com.example.libreserve.R.color.colorUnavailable
+                    }
+                )
+            )
             
             binding.root.setOnClickListener {
                 onBookClick(book)

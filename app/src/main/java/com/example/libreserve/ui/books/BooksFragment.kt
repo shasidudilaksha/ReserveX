@@ -45,7 +45,7 @@ class BooksFragment : Fragment() {
             val query = binding.etSearch.text.toString().trim()
             val books = viewModel.books.value.orEmpty().filter {
                 (it.title.contains(query, true) || it.author.contains(query, true)) &&
-                    (!binding.chipAvailable.isChecked || it.isAvailable)
+                    (!binding.chipAvailable.isChecked || (it.isAvailable && !it.isReservedByUser))
             }
             adapter.submitList(books)
             binding.tvResultCount.text = "${books.size} books to explore"
@@ -55,6 +55,11 @@ class BooksFragment : Fragment() {
         binding.etSearch.doAfterTextChanged { updateBooks() }
         binding.chipGroup.setOnCheckedStateChangeListener { _, _ -> updateBooks() }
         
+        viewModel.loadBooks()
+    }
+
+    override fun onResume() {
+        super.onResume()
         viewModel.loadBooks()
     }
 

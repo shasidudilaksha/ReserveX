@@ -74,6 +74,61 @@ cd ReserveX
 
 Then open the project in Android Studio and run it on an emulator or physical device.
 
+### Build and run from a terminal
+
+From the project root:
+
+```bash
+chmod +x gradlew                 # only needed once on Linux/macOS
+./gradlew :app:assembleDebug
+```
+
+The debug APK is written to `app/build/outputs/apk/debug/app-debug.apk`.
+
+If an Android device or emulator is connected and authorized, install and launch it with:
+
+```bash
+adb devices
+adb install -r app/build/outputs/apk/debug/app-debug.apk
+adb shell am start -n com.example.libreserve/.SplashActivity
+```
+
+### Connect a phone over wireless debugging
+
+Use the phone and computer on the same Wi-Fi network. On Android 11 or newer, open **Developer options → Wireless debugging**, enable it, and choose **Pair device with pairing code**. Keep the pairing dialog open, then run the commands shown by the phone (the ports are temporary):
+
+```bash
+adb pair PHONE_IP:PAIRING_PORT
+# enter the six-digit pairing code shown on the phone
+adb connect PHONE_IP:ADB_PORT
+adb devices
+```
+
+The device should appear with a `device` status. If it shows `unauthorized`, accept the debugging prompt on the phone. If pairing or connection fails, confirm both devices are on the same network, turn Wireless debugging off and on again, and use the current ports displayed by the phone. To disconnect later:
+
+```bash
+adb disconnect PHONE_IP:ADB_PORT
+```
+
+### Test on the phone with hot reload-like iteration
+
+ReserveX is a traditional XML/ViewBinding Android app, so it does not have Expo/React Native-style JavaScript hot reload. Android Studio provides the closest workflow:
+
+1. Pair/connect the phone using the commands above, then select the wireless device in Android Studio.
+2. Click **Run** once to install and launch the debug build.
+3. For Kotlin or XML changes, use **Apply Changes** (the lightning-bolt button) to push changes without a full reinstall when Android Studio supports that change. For manifest, dependency, resource, or structural changes, use **Run** again.
+4. Use **Logcat** filtered to `com.example.libreserve` while exercising onboarding, login, book discovery, seat reservation, meeting-room booking, confirmation, and reservation management.
+
+You can also repeat the terminal cycle after each change:
+
+```bash
+./gradlew :app:assembleDebug
+adb install -r app/build/outputs/apk/debug/app-debug.apk
+adb shell am start -n com.example.libreserve/.SplashActivity
+```
+
+Keep the phone unlocked during installation and leave USB debugging/wireless debugging enabled. Wireless debugging and Apply Changes are development-only workflows; they do not represent a release build or production deployment.
+
 ## Important Notes
 
 - Signup, login, profile edits, and logout use local demo data on the device.

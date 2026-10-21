@@ -5,7 +5,9 @@
     <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="12dp">
       <TextView android:id="@+id/textViewTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="18sp" android:textStyle="bold" android:textColor="?attr/colorOnSurface" />
       <TextView android:id="@+id/textViewAuthor" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:textSize="14sp" android:textColor="?attr/colorOnSurfaceVariant" />
+      <TextView android:id="@+id/textViewCategory" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:textSize="12sp" android:textColor="?attr/colorOnSurfaceVariant" android:textAllCaps="true" android:letterSpacing="0.08" />
       <com.google.android.material.chip.Chip android:id="@+id/textViewStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Available" style="@style/Widget.Material3.Chip.Suggestion" />
+      <TextView android:id="@+id/textViewAvailability" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:textSize="12sp" android:textColor="?attr/colorOnSurfaceVariant" />
     </LinearLayout>
   </LinearLayout>
 </com.google.android.material.card.MaterialCardView>

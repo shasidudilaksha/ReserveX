@@ -42,6 +42,18 @@ class ReservationsFragment : Fragment() {
                     putString("reservationId", reservation.reservationId)
                 }
                 findNavController().navigate(R.id.action_reservations_to_modify, bundle)
+            },
+            onCompleteBookClick = { reservation ->
+                viewModel.completeBookReservation(
+                    reservation.reservationId,
+                    com.example.libreserve.utils.SessionManager(requireContext()).userId
+                ) { result ->
+                    if (result.isSuccess) {
+                        Toast.makeText(requireContext(), "Book marked as collected", Toast.LENGTH_SHORT).show()
+                    } else {
+                        Toast.makeText(requireContext(), "Could not complete reservation", Toast.LENGTH_SHORT).show()
+                    }
+                }
             }
         )
         

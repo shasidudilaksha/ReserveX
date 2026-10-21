@@ -14,7 +14,8 @@ import com.example.libreserve.model.ReservationType
 
 class ReservationAdapter(
     private val onCancelClick: (Reservation) -> Unit,
-    private val onModifyClick: (Reservation) -> Unit
+    private val onModifyClick: (Reservation) -> Unit,
+    private val onCompleteBookClick: (Reservation) -> Unit
 ) : ListAdapter<Reservation, ReservationAdapter.ViewHolder>(DiffCallback) {
 
     inner class ViewHolder(private val binding: ItemReservationBinding) : RecyclerView.ViewHolder(binding.root) {
@@ -37,7 +38,13 @@ class ReservationAdapter(
             if (reservation.status == ReservationStatus.UPCOMING) {
                 binding.actionsRow.visibility = View.VISIBLE
                 binding.btnCancel.setOnClickListener { onCancelClick(reservation) }
-                binding.btnModify.setOnClickListener { onModifyClick(reservation) }
+                if (reservation.type == ReservationType.BOOK) {
+                    binding.btnModify.text = "Mark collected"
+                    binding.btnModify.setOnClickListener { onCompleteBookClick(reservation) }
+                } else {
+                    binding.btnModify.text = "Modify"
+                    binding.btnModify.setOnClickListener { onModifyClick(reservation) }
+                }
             } else {
                 binding.actionsRow.visibility = View.GONE
             }

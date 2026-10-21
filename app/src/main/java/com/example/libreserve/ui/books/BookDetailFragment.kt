@@ -29,14 +29,25 @@ class BookDetailFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val bookId = arguments?.getString("bookId") ?: return
         
-        viewModel.getBook(bookId)?.let { book ->
+        viewModel.selectedBook.observe(viewLifecycleOwner) { book ->
+            if (book == null) return@observe
             binding.textViewTitle.text = book.title
             binding.textViewAuthor.text = book.author
+            binding.textViewCategory.text = book.category
+            binding.textViewIsbn.text = "ISBN ${book.isbn}"
             binding.textViewDescription.text = book.description
-            binding.buttonReserve.isEnabled = book.isAvailable
-            binding.tvAvailability.text = if (book.isAvailable) "${book.availableCopies} copies available" else "Currently unavailable"
+            binding.buttonReserve.isEnabled = book.isAvailable && !book.isReservedByUser
+            binding.tvAvailability.text = when {
+                book.isReservedByUser -> "Reserved for you • ${book.availableCopies} copies remain"
+                book.isAvailable -> "${book.availableCopies} copies available"
+                else -> "Currently unavailable"
+            }
             binding.tvShelf.text = "Shelf ${book.shelfLocation}"
-            if (!book.isAvailable) binding.buttonReserve.text = "Currently unavailable"
+            binding.buttonReserve.text = when {
+                book.isReservedByUser -> "Already reserved"
+                book.isAvailable -> "Choose pick-up time"
+                else -> "Currently unavailable"
+            }
             
             binding.buttonReserve.setOnClickListener {
                 val bundle = Bundle().apply {
@@ -46,6 +57,7 @@ class BookDetailFragment : Fragment() {
                 findNavController().navigate(R.id.action_book_detail_to_reservation, bundle)
             }
         }
+        viewModel.loadBook(bookId)
     }
 
     override fun onDestroyView() {

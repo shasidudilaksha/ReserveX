@@ -12,6 +12,8 @@
           <ImageView android:id="@+id/imageViewCover" android:layout_width="120dp" android:layout_height="160dp" android:layout_gravity="center_horizontal" android:background="@drawable/bg_feature_card_books" android:padding="32dp" android:src="@drawable/ic_book" app:tint="@color/colorPrimary" android:importantForAccessibility="no" />
           <TextView android:id="@+id/textViewTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:textSize="24sp" android:textColor="@color/colorTextPrimary" android:layout_marginTop="12dp" android:textStyle="bold" />
           <TextView android:id="@+id/textViewAuthor" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:textSize="16sp" android:textColor="@color/colorTextPrimary" android:layout_marginTop="12dp" />
+          <TextView android:id="@+id/textViewCategory" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:textSize="12sp" android:textColor="@color/colorTextSecondary" android:layout_marginTop="8dp" android:textAllCaps="true" android:letterSpacing="0.08" />
+          <TextView android:id="@+id/textViewIsbn" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:textSize="13sp" android:textColor="@color/colorTextSecondary" android:layout_marginTop="6dp" />
           <TextView android:id="@+id/tvAvailability" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:textSize="14sp" android:textColor="@color/colorTextPrimary" android:layout_marginTop="12dp" />
         </LinearLayout>
       </com.google.android.material.card.MaterialCardView>

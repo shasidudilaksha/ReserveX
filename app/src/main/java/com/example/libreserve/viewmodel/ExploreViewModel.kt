@@ -3,12 +3,14 @@ package com.example.libreserve.viewmodel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import com.example.libreserve.model.Book
 import com.example.libreserve.model.MeetingRoom
 import com.example.libreserve.model.ReadingArea
 import com.example.libreserve.repository.BookRepository
 import com.example.libreserve.repository.MeetingRoomRepository
 import com.example.libreserve.utils.MockDataProvider
+import kotlinx.coroutines.launch
 
 class ExploreViewModel : ViewModel() {
     private val bookRepository = BookRepository()
@@ -27,6 +29,7 @@ class ExploreViewModel : ViewModel() {
     val currentFilter: LiveData<String> = _currentFilter
     
     private var query = ""
+    private var loadedBooks: List<Book> = emptyList()
 
     fun loadInitial() = refresh()
 
@@ -40,9 +43,17 @@ class ExploreViewModel : ViewModel() {
         refresh()
     }
 
-    private fun refresh() {
+    private fun refresh() = viewModelScope.launch {
         val type = _currentFilter.value ?: "ALL"
-        _books.value = if (type == "ALL" || type == "BOOKS") bookRepository.searchBooks(query) else emptyList()
+        if (type == "ALL" || type == "BOOKS") {
+            if (loadedBooks.isEmpty()) loadedBooks = bookRepository.getAllBooks()
+            _books.value = loadedBooks.filter {
+                query.isBlank() || it.title.contains(query, true) ||
+                    it.author.contains(query, true) || it.category.contains(query, true)
+            }
+        } else {
+            _books.value = emptyList()
+        }
         _areas.value = if (type == "ALL" || type == "SEATS") MockDataProvider.getReadingAreas("lib001").filter { it.name.contains(query, true) } else emptyList()
         _rooms.value = if (type == "ALL" || type == "ROOMS") roomRepository.getAllRooms().filter { it.name.contains(query, true) } else emptyList()
     }
